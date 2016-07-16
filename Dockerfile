@@ -14,5 +14,5 @@ RUN \
 ENV TIMEOUT=9999999
 
 EXPOSE 5001
-CMD ["forkbomb"]
+CMD ["membomb"]
 ENTRYPOINT ["/test.sh"]
