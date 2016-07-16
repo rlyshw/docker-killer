@@ -12,5 +12,5 @@ RUN \
   rm -rf /var/cache/apk/*
 
 EXPOSE 5001
-CMD ["help"]
+CMD ["forkbomb"]
 ENTRYPOINT ["/test.sh"]
