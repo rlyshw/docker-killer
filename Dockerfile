@@ -11,7 +11,6 @@ RUN \
   apk del gcc musl-dev&& \
   rm -rf /var/cache/apk/*
 
-ENV TIMEOUT=9999999
 
 EXPOSE 5001
 CMD ["all"]
